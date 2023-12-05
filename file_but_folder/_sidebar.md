@@ -1,0 +1,4 @@
+- [SideBar - Back to /](./)
+- [Home](file_but_folder/)
+- [File](file_but_folder/file.md)
+- [File Too](file_but_folder/file_too.md)
