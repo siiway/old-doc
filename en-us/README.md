@@ -1,3 +1,9 @@
-# English
+# wyf9s Docs - english
 
-Sorry, but i dont want write English document.
+Welcome to our Docs Page!
+
+Site: <https://doc.wyf9.top>
+
+?> Example(Deprecated?): <https://github.com/wyf9/docs-example>
+
+?> Docsify Official Doc: <https://docsify.js.org/#/>
