@@ -1,9 +1,3 @@
 - SideBar
   - [Home](/)
-  - [Deploy](./deploy.md)
-  - [A Folder](./a_folder/)
-    - [File](./a_folder/file.md)
-    - [File Too](./a_folder/file_too.md)
-  - [A File](./a_file.md)
-  - [A File Too](./a_file_too.md)
-  - [File?](./file_but_folder/)
+  - [Test](/test.md)

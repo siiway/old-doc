@@ -1,27 +1,9 @@
-# docs-example
+# wyf9s Docs
 
-**请在 GitHub Pages 上打开以得到最佳效果!**
+Welcome to our Docs Page!
 
-- 更新日期: {docsify-updated}
+站点: <https://doc.wyf9.top>
 
-Docsify 文档站点示例
+?> 文档模板(废弃?): <https://github.com/wyf9/docs-example>
 
-你可以 Fork 后修改本仓库的内容, 并推送到 GitHub Pages 即可拥有自己的文档网站.
-
-**已知问题**:
-- ~~没有 Favicon 图标~~ _(设置自定义域名即可解决?)_
-- 代码片段没有颜色
-
-!> 官方文档存档: <https://docsify.js.org/#/>
-
-?> 这个网站支持离线访问?
-
-- [x] 这是一个 Markdown 文档
-
-```python
-# 这是一个代码片段
-
-print("Test")
-exit(114514)
-
-```
+?> Docsify 官方文档: <https://docsify.js.org/#/>
