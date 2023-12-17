@@ -33,6 +33,13 @@
                 fontsize: '0.9em',
                 color: 'rgb(90,90,90)',
                 language: 'chinese'
+            },
+            tabs: {
+                persist: true,      // default
+                sync: true,      // default
+                theme: 'material', // default
+                tabComments: true,      // default
+                tabHeadings: true       // default
             }
         };
     </script>
@@ -50,6 +57,14 @@
     <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
     <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
     <script src="//unpkg.com/docsify-scroll-to-top/dist/docsify-scroll-to-top.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+
+    <style>
+        :root {
+            --docsifytabs-tab-highlight-color: green;
+        }
+    </style>
+
 
 </body>
 

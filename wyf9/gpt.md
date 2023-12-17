@@ -2,11 +2,13 @@
 
 站点: <https://gpt.wyf9.top>
 
-# Password
+<!-- tabs:start -->
+
+#### **Password**
 
 填入正确的密码即可直接使用，可[联系](mailto:wyf9@wyf9.top)获取.
 
-# Get api key
+#### **Get api key**
 
 可以在设置中使用自己的 API 和 API key, 也可以使用 ChatNio 的免费模型:
 
@@ -23,3 +25,5 @@
 5. 复制 API key, 粘贴到站点的下方 API key 框中即可
 
 ![image](/_media/gpt/3.png)
+
+<!-- tabs:end -->
