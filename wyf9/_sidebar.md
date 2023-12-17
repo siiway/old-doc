@@ -1,0 +1,3 @@
+- SideBar - /wyf9
+  - [Home](/wyf9)
+  - [ChatGPT Next Web](/wyf9/gpt.md)
