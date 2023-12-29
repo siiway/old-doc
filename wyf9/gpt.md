@@ -28,6 +28,6 @@
 
 <!-- tabs:end -->
 
-[img1]: //doc.wyf9.top/_media/wyf9/gpt/1.png
-[img2]: //doc.wyf9.top/_media/wyf9/gpt/2.png
-[img3]: //doc.wyf9.top/_media/wyf9/gpt/3.png
+[img1]: https://doc.wyf9.top/_media/wyf9/gpt/1.png
+[img2]: https://doc.wyf9.top/_media/wyf9/gpt/2.png
+[img3]: https://doc.wyf9.top/_media/wyf9/gpt/3.png
