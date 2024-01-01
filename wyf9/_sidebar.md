@@ -1,3 +1,4 @@
 - SideBar - /wyf9
   - [Home](/wyf9/)
+  - [LibreChat](/wyf9/libre.md)
   - [ChatGPT Next Web](/wyf9/gpt.md)

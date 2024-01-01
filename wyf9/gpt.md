@@ -12,7 +12,7 @@
 
 可以在设置中使用自己的 API 和 API key, 也可以使用 ChatNio 的免费模型:
 
-1. 打开 [ChatNio](//chatnio.net) 官网
+1. 打开 [ChatNio](https://chatnio.net) 官网
 2. 注册或登录一个账号
 3. 点击左下角的三点或右上角的头像, 打开菜单
 
@@ -28,6 +28,6 @@
 
 <!-- tabs:end -->
 
-[img1]: https://doc.wyf9.top/_media/wyf9/gpt/1.png
-[img2]: https://doc.wyf9.top/_media/wyf9/gpt/2.png
-[img3]: https://doc.wyf9.top/_media/wyf9/gpt/3.png
+[img1]: https://ghproxy.org/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/gpt/1.png
+[img2]: https://ghproxy.org/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/gpt/2.png
+[img3]: https://ghproxy.org/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/gpt/3.png
