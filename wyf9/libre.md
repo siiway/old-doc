@@ -4,6 +4,8 @@
 
 ?> 站点: <https://libre.wyf9.top>
 
+[![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/zl5f.svg)](https://uptime.betterstack.com/?utm_source=status_badge)
+
 ## 注册
 
 点击 `注册`, 按照提示注册即可
@@ -63,6 +65,8 @@
 图中 `1`、`2` 用法和官网相同
 
 <!-- tabs:start -->
+
+#### **→**
 
 ##### **3-设置 API Key 看**
 
@@ -237,7 +241,6 @@ ChatNio [模型列表][chatnio-models]
 6. 按照[上面](#使用)的说明粘贴, 即可开始使用
 
 <!-- tabs:end -->
-
 
 
 [chatnio-models]: https://docs.chatnio.net/ai-mo-xing-ji-ji-fei
