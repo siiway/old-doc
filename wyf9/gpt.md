@@ -1,5 +1,7 @@
 # wyf9s ChatGPT-Next-Web
 
+?> 建议使用新的 [LibreChat](/wyf9/libre.md) 代理站, 支持注册登录、云端保存 (虽然功能性不足)
+
 站点: <https://gpt.wyf9.top>
 
 <!-- tabs:start -->
@@ -16,18 +18,68 @@
 2. 注册或登录一个账号
 3. 点击左下角的三点或右上角的头像, 打开菜单
 
-![image][img1]
+<!-- tabs:start -->
 
-4. 点击 `API 设置`
+##### **org**
 
-![image][img2]
+![img](https://ghproxy.org/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/gpt/1.png)
 
-5. 复制 API key, 粘贴到站点的下方 API key 框中即可
+##### **net**
 
-![image][img3]
+![img](https://ghproxy.net/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/gpt/1.png)
+
+##### **com**
+
+![img](https://mirror.ghproxy.com/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/gpt/1.png)
+
+##### **Raw**
+
+![img](https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/gpt/1.png)
 
 <!-- tabs:end -->
 
-[img1]: https://ghproxy.org/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/gpt/1.png
-[img2]: https://ghproxy.org/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/gpt/2.png
-[img3]: https://ghproxy.org/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/gpt/3.png
+4. 点击 `API 设置`
+
+<!-- tabs:start -->
+
+##### **org**
+
+![img](https://ghproxy.org/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/gpt/2.png)
+
+##### **net**
+
+![img](https://ghproxy.net/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/gpt/2.png)
+
+##### **com**
+
+![img](https://mirror.ghproxy.com/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/gpt/2.png)
+
+##### **Raw**
+
+![img](https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/gpt/2.png)
+
+<!-- tabs:end -->
+
+5. 复制 API key, 粘贴到站点的下方 API key 框中即可
+
+<!-- tabs:start -->
+
+##### **org**
+
+![img](https://ghproxy.org/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/gpt/3.png)
+
+##### **net**
+
+![img](https://ghproxy.net/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/gpt/3.png)
+
+##### **com**
+
+![img](https://mirror.ghproxy.com/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/gpt/3.png)
+
+##### **Raw**
+
+![img](https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/gpt/3.png)
+
+<!-- tabs:end -->
+
+<!-- tabs:end -->

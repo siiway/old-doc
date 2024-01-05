@@ -2,6 +2,8 @@
 
 !> 本页未完工
 
+## 图片加速加载
+
 <!-- tabs:start -->
 
 #### **GitHub Proxy**
@@ -24,4 +26,32 @@ https://ghproxy.net/https://raw.githubusercontent.com/wyf01239/doc/main/(path of
 
 https://mirror.ghproxy.com/https://raw.githubusercontent.com/wyf01239/doc/main/(path of file)
 
+##### **?.jspx.wyf9.top(???)**
+
+https://jspx.wyf9.top/-----https://raw.githubusercontent.com/wyf01239/doc/main/(path of file)
+
+!> WARNING: 显示一张约 3M 的图片约会使用约 100 请求数, 受 Cloudflare 免费服务限制, 显示图片数量极其有限, 不建议使用!
+
 <!-- tabs:end -->
+
+```md
+<!-- tabs:start -->
+
+##### **org**
+
+![img](https://ghproxy.org/https://raw.githubusercontent.com/wyf01239/doc/main/_media/)
+
+##### **net**
+
+![img](https://ghproxy.net/https://raw.githubusercontent.com/wyf01239/doc/main/_media/)
+
+##### **com**
+
+![img](https://mirror.ghproxy.com/https://raw.githubusercontent.com/wyf01239/doc/main/_media/)
+
+##### **Raw**
+
+![img](https://raw.githubusercontent.com/wyf01239/doc/main/_media/)
+
+<!-- tabs:end -->
+```
