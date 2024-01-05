@@ -38,7 +38,7 @@
 
 ##### **Site**
 
-![img](/_media/wyf9/gpt/1.png)
+![img](https://doc.wyf9.top/_media/wyf9/gpt/1.png)
 
 <!-- tabs:end -->
 
@@ -64,7 +64,7 @@
 
 ##### **Site**
 
-![img](/_media/wyf9/gpt/2.png)
+![img](https://doc.wyf9.top/_media/wyf9/gpt/2.png)
 
 <!-- tabs:end -->
 
@@ -90,7 +90,7 @@
 
 ##### **Site**
 
-![img](/_media/wyf9/gpt/3.png)
+![img](https://doc.wyf9.top/_media/wyf9/gpt/3.png)
 
 <!-- tabs:end -->
 
