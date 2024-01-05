@@ -192,9 +192,13 @@ ChatNio [模型列表][chatnio-models]
 
 ![img](https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/libre/1.png)
 
+##### **Site**
+
+![img](https://doc.wyf9.top/_media/wyf9/libre/1.png)
+
 <!-- tabs:end -->
 
-4. 点击 `API 设置`
+1. 点击 `API 设置`
 
 <!-- tabs:start -->
 
@@ -214,9 +218,13 @@ ChatNio [模型列表][chatnio-models]
 
 ![img](https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/libre/2.png)
 
+##### **Site**
+
+![img](https://doc.wyf9.top/_media/wyf9/libre/2.png)
+
 <!-- tabs:end -->
 
-5. 复制 API key
+1. 复制 API key
 
 <!-- tabs:start -->
 
@@ -235,6 +243,10 @@ ChatNio [模型列表][chatnio-models]
 ##### **Raw**
 
 ![img](https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/libre/3.png)
+
+##### **Site**
+
+![img](https://doc.wyf9.top/_media/wyf9/libre/3.png)
 
 <!-- tabs:end -->
 
