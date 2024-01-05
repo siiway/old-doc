@@ -36,6 +36,10 @@
 
 ![img](https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/gpt/1.png)
 
+##### **Site**
+
+![img](/_media/wyf9/gpt/1.png)
+
 <!-- tabs:end -->
 
 4. 点击 `API 设置`
@@ -58,6 +62,10 @@
 
 ![img](https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/gpt/2.png)
 
+##### **Site**
+
+![img](/_media/wyf9/gpt/2.png)
+
 <!-- tabs:end -->
 
 5. 复制 API key, 粘贴到站点的下方 API key 框中即可
@@ -79,6 +87,10 @@
 ##### **Raw**
 
 ![img](https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/gpt/3.png)
+
+##### **Site**
+
+![img](/_media/wyf9/gpt/3.png)
 
 <!-- tabs:end -->
 

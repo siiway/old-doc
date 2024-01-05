@@ -10,7 +10,15 @@
 
 ?>  文件路径格式: https://raw.githubusercontent.com/(user)/(repo)/(branch)/(path of file)
 
+##### **站点**
+
+?> 直接从本站 (Cloudflare Pages) 获取
+
+(path of file)
+
 ##### **0.原始路径(最慢)**
+
+?> GitHub Raw
 
 https://raw.githubusercontent.com/wyf01239/doc/main/(path of file)
 
@@ -52,6 +60,10 @@ https://jspx.wyf9.top/-----https://raw.githubusercontent.com/wyf01239/doc/main/(
 ##### **Raw**
 
 ![img](https://raw.githubusercontent.com/wyf01239/doc/main/_media/)
+
+##### **Site**
+
+![img](/_media/)
 
 <!-- tabs:end -->
 ```
