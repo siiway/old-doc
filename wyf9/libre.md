@@ -4,7 +4,7 @@
 
 ?> 站点: <https://libre.wyf9.top>
 
-[![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/zl5f.svg)](https://uptime.betterstack.com/?utm_source=status_badge)
+[![Better Stack Badge](https://jspx.wyf9.top/-----https://uptime.betterstack.com/status-badges/v1/monitor/zl5f.svg)](https://uptime.betterstack.com/?utm_source=status_badge)
 
 ## 注册
 
@@ -242,6 +242,68 @@ ChatNio [模型列表][chatnio-models]
 
 <!-- tabs:end -->
 
+## 关于模型
+
+?> 模型计费: [Here][chatnio-models]
+
+<!-- tabs:start -->
+
+##### **→**
+
+##### **(说明)**
+
+带 `web-` 前缀的模型为联网模型
+
+所有聊天模型均带 `web-` 版本, Vision 版同理
+
+所有纯绘图模型均不带 `web-` 版
+
+> Vision: 多模态, 可同时使用聊天、识图、绘图
+
+##### **免费**
+
+如果没有填入自己的 API Key, 只能使用下列的免费模型:
+
+聊天:
+
+- gpt-3.5-turbo
+- gpt-3.5-turbo-16k
+
+绘图:
+
+- dall-e-2
+
+##### **付费**
+
+本站添加了部分付费模型:
+
+聊天:
+
+- gpt-3.5-turbo-16k-fast
+- gpt-4
+- gpt-4-v (Vision)
+- gpt-4-1106-preview
+- gpt-4-vision-preview (Vision)
+- gpt-4-32k (昂贵)
+
+绘图:
+
+- dall-e-3
+- midjourney
+- midjourney-turbo
+- stable-diffusion
+
+<!-- tabs:end -->
+
+### 充值
+
+若使用付费模型, 请自行前往 ChatNio 的[官方网站][chatnio]充值使用
+
+常见问题解答: [Here][chatnio-qa]
+
+!> 使用付费模型前看清价格! 不要泄露自己的 API Key, 避免盗用!
+
 
 [chatnio-models]: https://docs.chatnio.net/ai-mo-xing-ji-ji-fei
 [chatnio]: https://chatnio.net
+[chatnio-qa]: https://docs.chatnio.net/chang-jian-wen-ti-jie-da
