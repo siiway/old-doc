@@ -2,13 +2,11 @@
 
 ## 图片加速加载
 
+?> `GitHub Raw` 文件路径格式: https://raw.githubusercontent.com/(user)/(repo)/(branch)/(path of file)
+
 <!-- tabs:start -->
 
-#### **→**
-
-#### **GitHub Proxy**
-
-?>  文件路径格式: https://raw.githubusercontent.com/(user)/(repo)/(branch)/(path of file)
+##### **→**
 
 ##### **站点**
 
@@ -21,6 +19,10 @@
 ?> GitHub Raw
 
 https://raw.githubusercontent.com/wyf01239/doc/main/(path of file)
+
+##### **0.5.本站(稍快?)**
+
+https://doc.wyf9.top/(path of file)
 
 ##### **1.ghproxy.org(1st)**
 
@@ -41,6 +43,8 @@ https://jspx.wyf9.top/-----https://raw.githubusercontent.com/wyf01239/doc/main/(
 !> WARNING: 显示一张约 3M 的图片约会使用约 100 请求数, 受 Cloudflare 免费服务限制, 显示图片数量极其有限, 不建议使用!
 
 <!-- tabs:end -->
+
+Example:
 
 ```md
 <!-- tabs:start -->
