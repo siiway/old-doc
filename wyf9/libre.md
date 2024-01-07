@@ -292,7 +292,6 @@ ChatNio [模型列表][chatnio-models]
 聊天:
 
 - gpt-3.5-turbo-16k-fast
-- gpt-4-v (Vision)
 - gpt-4-1106-preview
 - gpt-4-vision-preview (Vision)
 - gpt-4-dalle (dalle)
@@ -316,6 +315,38 @@ ChatNio [模型列表][chatnio-models]
 
 !> 使用付费模型前看清价格! 不要泄露自己的 API Key, 避免盗用!
 
+### List
+
+> 已添加模型列表留档:
+
+<!-- tabs:start -->
+
+##### **→**
+
+##### **List**
+
+```
+gpt-3.5-turbo,
+web-gpt-3.5-turbo,
+gpt-3.5-turbo-16k,
+web-gpt-3.5-turbo-16k,
+dall-e-2,
+↑Free ↓Paid,
+web-gpt-3.5-turbo-16k-fast,
+web-gpt-4-1106-preview,
+web-gpt-4-vision-preview,
+web-gpt-4-dalle,
+web-azure-gpt-4,
+web-azure-gpt-4-32k,
+dall-e-3,
+midjourney,
+midjourney-turbo,
+stable-diffusion
+
+gpt-3.5-turbo,web-gpt-3.5-turbo,gpt-3.5-turbo-16k,web-gpt-3.5-turbo-16k,dall-e-2,↑Free ↓Paid,web-gpt-3.5-turbo-16k-fast,web-gpt-4-1106-preview,web-gpt-4-vision-preview,web-gpt-4-dalle,web-azure-gpt-4,web-azure-gpt-4-32k,dall-e-3,midjourney,midjourney-turbo,stable-diffusion
+```
+
+<!-- tabs:end -->
 
 [chatnio-models]: https://docs.chatnio.net/ai-mo-xing-ji-ji-fei
 [chatnio]: https://chatnio.net
