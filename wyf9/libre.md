@@ -292,11 +292,12 @@ ChatNio [模型列表][chatnio-models]
 聊天:
 
 - gpt-3.5-turbo-16k-fast
-- gpt-4
 - gpt-4-v (Vision)
 - gpt-4-1106-preview
 - gpt-4-vision-preview (Vision)
-- gpt-4-32k (昂贵)
+- gpt-4-dalle (dalle)
+- azure-gpt-4
+- azure-gpt-4-32k
 
 绘图:
 
