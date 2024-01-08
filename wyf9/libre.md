@@ -73,6 +73,8 @@ https://mirror.ghproxy.com/https://raw.githubusercontent.com/wyf01239/ghsrc/main
 
 https://jspx.wyf9.top/-----https://raw.githubusercontent.com/wyf01239/ghsrc/main/dl/wlibrechat/wLibreChat_WebReleaseLatest.apk
 
+<!-- tabs:end -->
+
 ?> 如需下载其他版本,请讲 `Latest` 替换为对应版本号
 
 > 列表: https://github.com/wyf01239/ghsrc/tree/main/dl/wlibrechat
@@ -89,8 +91,6 @@ net::ERR_CONNECTION_RESET
 ```
 
 网络线路不稳定, 请 `更换网络/DNS` 或 `使用梯子` 后重试，或刷新页面试试 *(直接在后台程序页面杀掉进程并重开即可)*
-
-<!-- tabs:end -->
 
 ## 找回密码
 
