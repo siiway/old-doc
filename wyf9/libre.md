@@ -4,7 +4,7 @@
 
 ?> 站点: <https://libre.wyf9.top>
 
-[![Better Stack Badge](https://jspx.wyf9.top/-----https://uptime.betterstack.com/status-badges/v1/monitor/zl5f.svg)](https://uptime.betterstack.com/?utm_source=status_badge)
+服务监测: ![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/zl5f.svg)
 
 ## 注册
 
@@ -85,7 +85,7 @@
 
 切换服务商, 有 `OpenAI`、`New Bing`、`Claude`(`Anthropic`) 可选
 
-?> `OpenAI` 的反代 API 已被设为 ChatNio 的中转 API, 可直接使用免费模型
+?> `OpenAI` 的反代 API 已被设为 ChatNio 的中转 API, 可输入后直接使用免费模型
 
 !> 除 `OpenAI` 以外的提供商未测试可用性
 
@@ -165,7 +165,7 @@
 
 输入框, 回车发送
 
-> 左侧的附件貌似仅能上传四种格式的图片: `JPEG`, `JPG`, `PNG`, `WEBP`, 非 Vision 模型不可用
+> 左侧的附件貌似仅能上传四种格式的图片: `JPEG`, `JPG`, `PNG`, `WEBP`, 非 Vision 模型不可用, 未测试可用性
 
 <!-- tabs:end -->
 
@@ -175,7 +175,9 @@
 
 ### **直接使用**
 
-可直接使用，只能使用免费模型
+可 [[点击复制]]() 来获取免费 API Key.
+
+!> 本 Key 对应的账号没有余额, 只能使用免费模型, 且不保证并发及可用性!
 
 ChatNio [模型列表][chatnio-models]
 
@@ -326,7 +328,7 @@ ChatNio [模型列表][chatnio-models]
 
 常见问题解答: [Here][chatnio-qa]
 
-!> 使用付费模型前看清价格! 不要泄露自己的 API Key, 避免盗用!
+!> 使用付费模型前看清价格! 不要泄露自己的 API Key, 避免盗用! 如泄露请在 ChatNio 获取 `API Key` 的页面重置!
 
 ### List
 

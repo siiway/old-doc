@@ -1,5 +1,62 @@
 # Sources
 
+## Menu
+
+- [复制文本](#复制文本)
+- [图片加速](#图片加速加载)
+
+## 复制文本
+
+已在 `index.html` 中添加了相关 js 代码, 可直接使用
+
+<!-- tabs:start -->
+
+##### **加载**
+
+在页面中 `<head>` `</head>` 中或其他地方增加如下引用:
+```
+<script src="https://ghsrc.wyf9.top/js/copy.js"></script>
+```
+
+?> 也可以直接插入:
+
+```html
+<script>
+function copy(text) {
+  var input = document.createElement('input');
+  input.setAttribute('value', text);
+  document.body.appendChild(input);
+  input.select();
+  document.execCommand('copy');
+  document.body.removeChild(input);
+}
+</script>
+```
+
+##### **使用**
+
+- html: 
+
+```html
+<a href="javascript:copy('[文本]')">[提示]</a>
+```
+
+- markdown: 
+
+```md
+[[提示]](javascript:copy('[文本]'))
+```
+
+!> Markdown 方法可能在某些地方无法正确使用 (包括本站使用的 Docsify)
+
+效果: 
+
+Markdown: [点击复制](javascript:copy('复制的测试文本'))
+
+HTML: <a href="javascript:copy('复制的测试文本')">点击复制</a>
+
+<!-- tabs:end -->
+
 ## 图片加速加载
 
 ?> `GitHub Raw` 文件路径格式: https://raw.githubusercontent.com/(user)/(repo)/(branch)/(path of file)
@@ -24,23 +81,17 @@ https://raw.githubusercontent.com/wyf01239/doc/main/(path of file)
 
 https://doc.wyf9.top/(path of file)
 
-##### **1.ghproxy.org(1st)**
+##### **1.ghproxy.org**
 
 https://ghproxy.org/https://raw.githubusercontent.com/wyf01239/doc/main/(path of file)
 
-##### **2.ghproxy.net(2nd)**
+##### **2.ghproxy.net**
 
 https://ghproxy.net/https://raw.githubusercontent.com/wyf01239/doc/main/(path of file)
 
-##### **3.ghproxy.com(3rd)**
+##### **3.ghproxy.com**
 
 https://mirror.ghproxy.com/https://raw.githubusercontent.com/wyf01239/doc/main/(path of file)
-
-##### **?.jspx.wyf9.top(???)**
-
-https://jspx.wyf9.top/-----https://raw.githubusercontent.com/wyf01239/doc/main/(path of file)
-
-!> WARNING: 显示一张约 3M 的图片约会使用约 100 请求数, 受 Cloudflare 免费服务限制, 显示图片数量极其有限, 不建议使用!
 
 <!-- tabs:end -->
 
