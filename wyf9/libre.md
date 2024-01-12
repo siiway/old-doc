@@ -224,9 +224,9 @@ net::ERR_CONNECTION_RESET
 
 ### **直接使用**
 
-可 [[点击复制]]() 来获取免费 API Key.
+可 <div id="copykey"><a href="javascript:copyn('sk-11b0eff2c8c2b202f8eb0865086bfeea8d9f686df2ff9f15931a274ee3e072be', 'copykey', '复制成功!', 1000)">点击此处</a></div> 来复制免费 API Key, 并按照正常方法粘贴填入即可.
 
-!> 本 Key 对应的账号没有余额, 只能使用免费模型, 且不保证并发及可用性!
+!> 上面的 Key 对应的账号没有余额, 只能使用免费模型, 且不保证并发及可用性!
 
 ChatNio [模型列表][chatnio-models]
 
@@ -338,7 +338,7 @@ ChatNio [模型列表][chatnio-models]
 
 ##### **免费**
 
-如果没有填入自己的 API Key, 只能使用下列的[免费模型](#关于模型):
+如果使用的 API Key 对应账号没有 `Nio Point` 余额, 只能使用下列的[免费模型](#关于模型):
 
 聊天:
 
@@ -377,7 +377,7 @@ ChatNio [模型列表][chatnio-models]
 
 常见问题解答: [Here][chatnio-qa]
 
-!> 使用付费模型前看清价格! 不要泄露自己的 API Key, 避免盗用! 如泄露请在 ChatNio 获取 `API Key` 的页面重置!
+!> 使用付费模型前看清价格! 不要泄露自己的 API Key, 避免盗用! 如泄露请在 [ChatNio][chatnio] 获取 `API Key` 的页面重置!
 
 ## Storage
 
