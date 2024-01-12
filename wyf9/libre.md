@@ -43,6 +43,55 @@
 
 三方登录可选择 `GitHub` 或 `Discord` 登录或注册, 默认将登录三方账号绑定的邮箱对应账号, 没有将会自动注册
 
+## 手机版应用
+
+为方便安卓用户使用, 特打包了安卓安装包
+
+> 数字版本号: `2`
+
+下载地址: 
+
+<!-- tabs:start -->
+
+##### **raw**
+
+https://raw.githubusercontent.com/wyf01239/ghsrc/main/dl/wlibrechat/wLibreChat_WebReleaseLatest.apk
+
+##### **org**
+
+https://ghproxy.org/https://raw.githubusercontent.com/wyf01239/ghsrc/main/dl/wlibrechat/wLibreChat_WebReleaseLatest.apk
+
+##### **net**
+
+https://ghproxy.net/https://raw.githubusercontent.com/wyf01239/ghsrc/main/dl/wlibrechat/wLibreChat_WebReleaseLatest.apk
+
+##### **com**
+
+https://mirror.ghproxy.com/https://raw.githubusercontent.com/wyf01239/ghsrc/main/dl/wlibrechat/wLibreChat_WebReleaseLatest.apk
+
+##### **workers**
+
+https://jspx.wyf9.top/-----https://raw.githubusercontent.com/wyf01239/ghsrc/main/dl/wlibrechat/wLibreChat_WebReleaseLatest.apk
+
+<!-- tabs:end -->
+
+?> 如需下载其他版本,请讲 `Latest` 替换为对应版本号
+
+> 列表: https://github.com/wyf01239/ghsrc/tree/main/dl/wlibrechat
+
+### 常见问题
+
+显示类似如下内容?:
+
+```
+网页无法打开
+位于 https://libre.wyf9.top/ 的网页无法加载，因为：
+
+net::ERR_CONNECTION_RESET
+```
+
+网络线路不稳定, 请 `更换网络/DNS` 或 `使用梯子` 后重试，或刷新页面试试 *(直接在后台程序页面杀掉进程并重开即可)*
+
 ## 找回密码
 
 无法自行找回密码(邮箱发送不起作用), 请妥善保管密码!
@@ -330,9 +379,9 @@ ChatNio [模型列表][chatnio-models]
 
 !> 使用付费模型前看清价格! 不要泄露自己的 API Key, 避免盗用! 如泄露请在 ChatNio 获取 `API Key` 的页面重置!
 
-### List
+## Storage
 
-> 已添加模型列表留档:
+已添加模型列表留档:
 
 <!-- tabs:start -->
 
@@ -359,6 +408,26 @@ midjourney-turbo,
 stable-diffusion
 
 gpt-3.5-turbo,web-gpt-3.5-turbo,gpt-3.5-turbo-16k,web-gpt-3.5-turbo-16k,dall-e-2,↑Free ↓Paid,web-gpt-3.5-turbo-16k-fast,web-gpt-4-1106-preview,web-gpt-4-vision-preview,web-gpt-4-dalle,web-azure-gpt-4,web-azure-gpt-4-32k,dall-e-3,midjourney,midjourney-turbo,stable-diffusion
+```
+
+<!-- tabs:end -->
+
+apk打包参数:
+
+<!-- tabs:start -->
+
+##### **→**
+
+##### **List**
+
+```yaml
+名称: wLibreChat
+包名: top.wyf.web.wlibrechat
+版本名: WebRelease[版本号]
+数字版本号: 见上
+网页: https://libre.wyf9.top
+特性: 支持打开外部应用, 硬件加速
+启用应用栏/网页标题/菜单项: False
 ```
 
 <!-- tabs:end -->
