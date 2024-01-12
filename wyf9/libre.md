@@ -47,8 +47,6 @@
 
 为方便安卓用户使用, 特打包了安卓安装包
 
-> 数字版本号: `2`
-
 下载地址: 
 
 <!-- tabs:start -->
@@ -412,7 +410,7 @@ gpt-3.5-turbo,web-gpt-3.5-turbo,gpt-3.5-turbo-16k,web-gpt-3.5-turbo-16k,dall-e-2
 
 <!-- tabs:end -->
 
-apk打包参数:
+最近的apk打包参数:
 
 <!-- tabs:start -->
 
@@ -423,8 +421,8 @@ apk打包参数:
 ```yaml
 名称: wLibreChat
 包名: top.wyf.web.wlibrechat
-版本名: WebRelease[版本号]
-数字版本号: 见上
+版本名: WebRelease1.1
+数字版本号: 2
 网页: https://libre.wyf9.top
 特性: 支持打开外部应用, 硬件加速
 启用应用栏/网页标题/菜单项: False
