@@ -144,21 +144,17 @@ function copyn(text, targetId, successMessage, timeout) {
 
 ##### **→**
 
-##### **站点**
+##### **-2.本站(稍快?)**
 
 ?> 直接从本站 (Cloudflare Pages) 获取
 
-(path of file)
+https://doc.wyf9.top/(path of file)
 
-##### **0.原始路径(最慢)**
+##### **-1.原始路径(最慢)**
 
 ?> GitHub Raw
 
 https://raw.githubusercontent.com/wyf01239/doc/main/(path of file)
-
-##### **0.5.本站(稍快?)**
-
-https://doc.wyf9.top/(path of file)
 
 ##### **1.ghproxy.org**
 

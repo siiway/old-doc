@@ -59,6 +59,8 @@ https://raw.githubusercontent.com/wyf01239/ghsrc/main/dl/wlibrechat/wLibreChat_W
 
 https://ghproxy.org/https://raw.githubusercontent.com/wyf01239/ghsrc/main/dl/wlibrechat/wLibreChat_WebReleaseLatest.apk
 
+> 或使用短链: <https://t.wyf9.top/libreapkorg>
+
 ##### **net**
 
 https://ghproxy.net/https://raw.githubusercontent.com/wyf01239/ghsrc/main/dl/wlibrechat/wLibreChat_WebReleaseLatest.apk
@@ -222,7 +224,7 @@ net::ERR_CONNECTION_RESET
 
 ### **直接使用**
 
-可 <div id="copykey"><a href="javascript:copyn('sk-11b0eff2c8c2b202f8eb0865086bfeea8d9f686df2ff9f15931a274ee3e072be', 'copykey', '复制成功!', 1000)">点击此处</a></div> 来复制免费 API Key, 并按照正常方法粘贴填入即可.
+可 <div id="copykey"><a href="javascript:copyn('sk-11b0eff2c8c2b202f8eb0865086bfeea8d9f686df2ff9f15931a274ee3e072be', 'copykey', '复制成功!', 1000)">点击此处</a></div> 来复制免费 API Key, 并按照[上面](#使用)的方法粘贴填入即可.
 
 !> 上面的 Key 对应的账号没有余额, 只能使用免费模型, 且不保证并发及可用性!
 
@@ -260,7 +262,7 @@ ChatNio [模型列表][chatnio-models]
 
 <!-- tabs:end -->
 
-1. 点击 `API 设置`
+4. 点击 `API 设置`
 
 <!-- tabs:start -->
 
@@ -286,7 +288,7 @@ ChatNio [模型列表][chatnio-models]
 
 <!-- tabs:end -->
 
-1. 复制 API key
+5. 复制 API key
 
 <!-- tabs:start -->
 
@@ -340,12 +342,12 @@ ChatNio [模型列表][chatnio-models]
 
 聊天:
 
-- gpt-3.5-turbo
-- gpt-3.5-turbo-16k
+- `gpt-3.5-turbo`
+- `gpt-3.5-turbo-16k`
 
 绘图:
 
-- dall-e-2
+- `dall-e-2`
 
 ##### **付费**
 
@@ -353,19 +355,19 @@ ChatNio [模型列表][chatnio-models]
 
 聊天:
 
-- gpt-3.5-turbo-16k-fast
-- gpt-4-1106-preview
-- gpt-4-vision-preview (Vision)
-- gpt-4-dalle (dalle)
-- azure-gpt-4
-- azure-gpt-4-32k
+- `gpt-3.5-turbo-16k-fast`
+- `gpt-4-1106-preview`
+- `gpt-4-vision-preview` (`Vision`)
+- `gpt-4-dalle` (`dalle`)
+- `azure-gpt-4`
+- `azure-gpt-4-32k`
 
 绘图:
 
-- dall-e-3
-- midjourney
-- midjourney-turbo
-- stable-diffusion
+- `dall-e-3`
+- `midjourney`
+- `midjourney-turbo`
+- `stable-diffusion`
 
 <!-- tabs:end -->
 
