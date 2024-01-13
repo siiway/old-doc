@@ -111,8 +111,11 @@ function copyn(text, targetId, successMessage, timeout) {
 ```
 
 > div id: 要绑定的id, 前后需相同
+
 > 文本: 要复制的文本
+
 > 复制后提示: 复制后显示的成功提示
+
 > 提示持续时间: 上面成功提示的持续时间(毫秒),结束后恢复原本提示
 
 > `1000ms`(毫秒) = `1s`(秒)
