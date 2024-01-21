@@ -6,7 +6,9 @@
 
 基于 `go-proxy-bingai` 搭建的 BingAI 代理站
 
-## 站点
+## Usage
+
+> 可在 右上角齿轮图标 -> `高级设置` 中设置聊天次数
 
 <!-- tabs:start -->
 
@@ -23,9 +25,14 @@
 
 ##### **1**
 
-> 站点: <bing1.wyf9.top>
+> 站点: <https://bing1.wyf9.top>
 
 Cloudflare Workers 的代理地址
+
+如需使用, 须进行额外设置:
+
+1. 根据上面 **`Main`** 的方法选择服务
+2. 额外在 `高级设置` 中设置 `人机验证服务器` 也为 `https://wyf9-bingpx.hf.space`
 
 ##### **2**
 
