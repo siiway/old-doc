@@ -63,6 +63,8 @@
     <button onclick="decrypt()">解密</button>
   </div>
 
+<script src="https://ghsrc.wyf9.top/jsc/crypto.js"></script>
+
   <script>
     function encrypt() {
       var encryptionKey = document.getElementById('encryptionKey').value;

@@ -69,19 +69,23 @@ HTML: <a href="javascript:copy('复制的测试文本')">点击复制</a>
 
 > 已在 `index.html` 中添加了相关 js 代码, 可直接在本站中使用
 
+> 添加了多行文本的复制
+
 <!-- tabs:start -->
 
 ##### **加载**
 
 在页面中 `<head>` `</head>` 中或其他地方增加如下引用:
-```
-<script src="https://ghsrc.wyf9.top/js/copyn.js"></script>
+```html
+<script src="https://ghsrc.wyf9.top/js/copyn.js"></script> <!-- 单行复制 -->
+<script src="https://ghsrc.wyf9.top/js/copym.js"></script> <!-- 多行复制 -->
 ```
 
 ?> 也可以直接插入:
 
 ```html
 <script>
+// 单行复制
 function copyn(text, targetId, successMessage, timeout) {
   var target = document.getElementById(targetId);
   var originalText = target.innerHTML;
@@ -98,16 +102,48 @@ function copyn(text, targetId, successMessage, timeout) {
   setTimeout(function() {
     target.innerHTML = originalText;
   }, timeout);
+};
+
+// 多行复制
+function copym(text, targetId, successMessage, timeout) {
+  var target = document.getElementById(targetId);
+  var originalText = target.innerHTML;
+
+  var textarea = document.createElement('textarea');
+  textarea.value = text;
+  textarea.setAttribute('readonly', '');
+  textarea.style.position = 'absolute';
+  textarea.style.left = '-9999px';
+  document.body.appendChild(textarea);
+  textarea.select();
+  document.execCommand('copy');
+  document.body.removeChild(textarea);
+
+  target.innerHTML = successMessage;
+
+  setTimeout(function() {
+    target.innerHTML = originalText;
+  }, timeout);
 }
 </script>
 ```
 
 ##### **使用**
 
-- html:
+html:
+
+1. 单行文本
 
 ```html
 <div id="[div id]"><a href="javascript:copyn('[文本]', '[div id]', '[复制后提示]', [提示持续时间])">原本提示</a></div>
+```
+
+2. 多行文本
+
+```html
+<div id="[div id]"><a href="javascript:copym(`Line 1
+Line 2
+Line 3`, '[div id]', '[复制后提示]', [提示持续时间])">原本提示</a></div>
 ```
 
 > div id: 要绑定的id, 前后需相同
@@ -120,17 +156,67 @@ function copyn(text, targetId, successMessage, timeout) {
 
 > `1000ms`(毫秒) = `1s`(秒)
 
-- markdown:
+markdown:
 
 没有, 可参照上面 HTML 的方法调用
 
 效果: 
 
 ```html
-<div id="copy1"><a href="javascript:copyn('要复制的文本', 'copy1', '复制成功!', 800)">点击复制</a></div>
+<div id="copy1"><a href="javascript:copyn('要复制的文本', 'copy1', '复制成功!', 800)">点击复制单行</a></div>
 ```
 
-<div id="copy1"><a href="javascript:copyn('要复制的文本', 'copy1', '复制成功!', 800)">点击复制</a></div>
+<div id="copy1"><a href="javascript:copyn('要复制的文本', 'copy1', '复制成功!', 800)">点击复制单行</a></div>
+
+```html
+<div id="copy1"><a href="javascript:copym(`Line1
+Line2
+Line3`, 'copy1', '复制成功!', 800)">点击复制多行</a></div>
+```
+
+<div id="copy1"><a href="javascript:copym(`Line1
+Line2
+Line3`, 'copy1', '复制成功!', 800)">点击复制多行</a></div>
+
+<!-- tabs:end -->
+
+## 批量导入js
+
+> 由 [ChatGPT](/wyf9/libre.md) 生成
+
+<!-- tabs:start -->
+
+##### **加载**
+
+```html
+<script src="https://ghsrc.wyf9.top/js/import.js"><script>
+```
+
+> 或使用下面的脚本:
+
+```html
+<script>
+function wimport(base, files) {
+  files.forEach(function (file) {
+    var script = document.createElement("script");
+    script.src = base + file;
+    document.head.appendChild(script);
+  });
+}
+</script>
+```
+
+##### **使用**
+
+```html
+<script>
+wimport("[base]", [
+"[file1]",
+"[file2]",
+// others..
+]);
+</script>
+```
 
 <!-- tabs:end -->
 

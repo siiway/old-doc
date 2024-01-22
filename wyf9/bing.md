@@ -1,6 +1,6 @@
 # BingAI
 
-!> 本页内容可能会随时变动，不保证稳定性
+!> 本页内容可能会随时变动，不保证可用!!!
 
 基于 `go-proxy-bingai` 搭建的 BingAI 代理站
 
@@ -34,13 +34,13 @@ Cloudflare Workers 的代理地址
 
 ##### **2**
 
-> 站点: <bing2.wyf9.top>
+> 站点: <https://bing2.wyf9.top>
 
 使用 Workers 尝试反代 `https://wyf9-bingpx.hf.space`, 可能不可用
 
 ##### **HuggingFace**
 
-> 站点: <wyf9-bingpx.hf.space>
+> 站点: <https://wyf9-bingpx.hf.space>
 
 貌似可正常使用, 但**国内直连困难**
 

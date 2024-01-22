@@ -1,2 +1,3 @@
 - SideBar - /tool - Tools
+  - [Home](/tool/)
   - [AES](/tool/aes.md)
