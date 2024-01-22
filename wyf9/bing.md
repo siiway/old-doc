@@ -16,10 +16,11 @@
 
 > 站点: <https://bing.wyf9.top>
 
-如需使用，需额外进行设置:
+> 需额外进行设置:
 
 1. 点击右上角的齿轮图标 -> `服务选择`
-2. 在下面自定义地址中填入地址: `https://wyf9-bingpx.hf.space`, 并选择即可聊天
+2. 在下面的`自定义地址`中填入地址: `https://wyf9-wingai.hf.space`, 并选择
+3. 在 齿轮图标 -> `高级设置` 中设置 `人机验证服务器` 也设为 `https://wyf9-wingai.hf.space` 即可聊天
 
 ##### **1**
 
@@ -27,21 +28,14 @@
 
 Cloudflare Workers 的代理地址
 
-如需使用, 须进行额外设置:
-
-1. 根据上面 **`Main`** 的方法选择服务
-2. 额外在 `高级设置` 中设置 `人机验证服务器` 也为 `https://wyf9-bingpx.hf.space`
-
-##### **2**
-
-> 站点: <https://bing2.wyf9.top>
-
-使用 Workers 尝试反代 `https://wyf9-bingpx.hf.space`, 可能不可用
+按照上面的方法设置即可
 
 ##### **HuggingFace**
 
-> 站点: <https://wyf9-bingpx.hf.space>
+> 站点: <https://wyf9-wingai.hf.space>
 
-貌似可正常使用, 但**国内直连困难**
+无需进行任何设置, 直接使用
+
+!> **国内直连困难**
 
 <!-- tabs:end -->
