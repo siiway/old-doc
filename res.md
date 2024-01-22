@@ -180,46 +180,6 @@ Line3`, 'copy1', '复制成功!', 800)">点击复制多行</a></div>
 
 <!-- tabs:end -->
 
-## 批量导入js
-
-> 由 [ChatGPT](/wyf9/libre.md) 生成
-
-<!-- tabs:start -->
-
-##### **加载**
-
-```html
-<script src="https://ghsrc.wyf9.top/js/import.js"><script>
-```
-
-> 或使用下面的脚本:
-
-```html
-<script>
-function wimport(base, files) {
-  files.forEach(function (file) {
-    var script = document.createElement("script");
-    script.src = base + file;
-    document.head.appendChild(script);
-  });
-}
-</script>
-```
-
-##### **使用**
-
-```html
-<script>
-wimport("[base]", [
-"[file1]",
-"[file2]",
-// others..
-]);
-</script>
-```
-
-<!-- tabs:end -->
-
 ## 图片加速加载
 
 > [Back](#sources)
