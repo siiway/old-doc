@@ -1,5 +1,7 @@
 # wyf9sLibreChat
 
+!> ChatNio 已停止免费服务，本页信息等待更新
+
 > 本页短链: <https://t.wyf9.top/libredoc>
 
 ?> 站点: <https://libre.wyf9.top>
