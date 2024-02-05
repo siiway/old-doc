@@ -1,5 +1,7 @@
 # wyf9s ChatGPT-Next-Web
 
+!> ChatNio 已停止免费服务
+
 > 本页短链: <https://t.wyf9.top/wgptdoc>
 
 ?> 建议使用新的 [LibreChat](/wyf9/libre.md) 代理站, 支持注册登录、云端保存 (虽然功能性不足)
