@@ -3,3 +3,4 @@
   - [LibreChat](/wyf9/libre.md)
   - [ChatGPT Next Web](/wyf9/gpt.md)
   - [BingAI](/wyf9/bing.md)
+  - [wAutoSend-Autoxjs](/wyf9/autosendjs.md)
