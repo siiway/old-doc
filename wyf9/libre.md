@@ -1,7 +1,5 @@
 # wyf9sLibreChat
 
-!> ChatNio 已停止免费服务，本页信息等待更新
-
 > 本页短链: <https://t.wyf9.top/libredoc>
 
 ?> 站点: <https://libre.wyf9.top>
@@ -53,6 +51,10 @@
 
 <!-- tabs:start -->
 
+##### **ghsrc**
+
+https://ghsrc.wyf9.top/dl/wlibrechat/wLibreChat_WebReleaseLatest.apk
+
 ##### **raw**
 
 https://raw.githubusercontent.com/wyf01239/ghsrc/main/dl/wlibrechat/wLibreChat_WebReleaseLatest.apk
@@ -70,10 +72,6 @@ https://ghproxy.net/https://raw.githubusercontent.com/wyf01239/ghsrc/main/dl/wli
 ##### **com**
 
 https://mirror.ghproxy.com/https://raw.githubusercontent.com/wyf01239/ghsrc/main/dl/wlibrechat/wLibreChat_WebReleaseLatest.apk
-
-##### **workers**
-
-https://jspx.wyf9.top/-----https://raw.githubusercontent.com/wyf01239/ghsrc/main/dl/wlibrechat/wLibreChat_WebReleaseLatest.apk
 
 <!-- tabs:end -->
 
@@ -94,9 +92,31 @@ net::ERR_CONNECTION_RESET
 
 网络线路不稳定, 请 `更换网络/DNS` 或 `使用梯子` 后重试，或刷新页面试试 *(直接在后台程序页面杀掉进程并重开即可)*
 
+> 也可能是你网没了，不过错误代码不是 `ERR_CONNECTION_RESET`
+
+### 打包参数
+
+<!-- tabs:start -->
+
+##### **→**
+
+##### **Here**
+
+```yaml
+名称: wLibreChat
+包名: top.wyf.web.wlibrechat
+版本名: WebRelease1.1
+数字版本号: 2
+网页: https://libre.wyf9.top
+特性: 支持打开外部应用, 硬件加速
+启用应用栏/网页标题/菜单项: False
+```
+
+<!-- tabs:end -->
+
 ## 找回密码
 
-无法自行找回密码(邮箱发送不起作用), 请妥善保管密码!
+预计会在~~几个月~~几周内完善，期间请不要随意找回他人的账号，后果自负!
 
 ## 使用
 
@@ -126,17 +146,20 @@ net::ERR_CONNECTION_RESET
 
 <!-- tabs:end -->
 
-图中 `1`、`2` 用法和官网相同
 
 <!-- tabs:start -->
 
 #### **→**
 
+##### **1/2**
+
+~~如果你猜不出这两个是用来干什么的，就应该去检查下智力了？~~
+
 ##### **3-设置 API Key 看**
 
 切换服务商, 有 `OpenAI`、`New Bing`、`Claude`(`Anthropic`) 可选
 
-?> `OpenAI` 的反代 API 已被设为 ChatNio 的中转 API, 可输入后直接使用免费模型
+?> `OpenAI` 的反代 API 已被设为 [ChatNio][chatnio] 的中转 API, 比 OpenAI 增加了更多模型且更便宜
 
 !> 除 `OpenAI` 以外的提供商未测试可用性
 
@@ -164,7 +187,7 @@ net::ERR_CONNECTION_RESET
 
 <!-- tabs:end -->
 
-打开后会出现如图界面, 点击红框区域可自定义 API Key:
+打开后会出现如图界面, 点击红框区域可输入 API Key:
 
 <!-- tabs:start -->
 
@@ -192,7 +215,9 @@ net::ERR_CONNECTION_RESET
 
 `Expires in ...` 可设置密钥存储的过期时间
 
-> 如果你不会一点英文, 下面是对照:
+> 翻译: 在...后过期
+
+> 下面是中英对照:
 
 | English    | 中文 |
 |------------|------|
@@ -216,23 +241,11 @@ net::ERR_CONNECTION_RESET
 
 输入框, 回车发送
 
-> 左侧的附件貌似仅能上传四种格式的图片: `JPEG`, `JPG`, `PNG`, `WEBP`, 非 Vision 模型不可用, 未测试可用性
+> 左侧的附件貌似仅能上传四种格式的图片: `JPEG`, `JPG`, `PNG`, `WEBP`, 非 Vision 模型不可用, **未测试可用性**
 
 <!-- tabs:end -->
 
 ## 关于 API Key
-
-<!-- tabs:start -->
-
-### **直接使用**
-
-可 <div id="copykey"><a href="javascript:copyn('sk-11b0eff2c8c2b202f8eb0865086bfeea8d9f686df2ff9f15931a274ee3e072be', 'copykey', '复制成功!', 1000)">点击此处</a></div> 来复制免费 API Key, 并按照[上面](#使用)的方法粘贴填入即可.
-
-!> 上面的 Key 对应的账号没有余额, 只能使用免费模型, 且不保证并发及可用性!
-
-ChatNio [模型列表][chatnio-models]
-
-### **获取 API Key**
 
 可以按照以下步骤获取 API Key:
 
@@ -322,117 +335,136 @@ ChatNio [模型列表][chatnio-models]
 
 ## 关于模型
 
-?> 模型计费: [Here][chatnio-models]
+?> 最新模型列表及计费: [Here][chatnio-models]
 
 <!-- tabs:start -->
 
 ##### **→**
 
-##### **(说明)**
+##### **模型列表**
 
-带 `web-` 前缀的模型为联网模型
+本站目前添加的模型如下:
 
-所有聊天模型均带 `web-` 版本, Vision 版同理
+```py
 
-所有纯绘图模型均不带 `web-` 版
+# ChatGPT ----------,
+gpt-3.5-turbo,
+gpt-3.5-turbo-1106,
+gpt-3.5-turbo-16k,
+gpt-4,
+gpt-4-1106-preview,
+gpt-4-0125-preview,
+gpt-4-turbo-preview,
+gpt-4-vision-preview,
+gpt-4-v,
+gpt-4-dalle,
+gpt-4-all,
+gpt-4-32k,
+azure-gpt-3.5-turbo,
+azure-gpt-3.5-turbo-16k,
+azure-gpt-4,
+azure-gpt-4-32k,
+gpt-3.5-turbo-fast,
+gpt-3.5-turbo-16k-fast,
 
-> Vision: 多模态, 可同时使用聊天、识图、绘图
+# ChatGPT-联网 ----------,
+web-gpt-3.5-turbo,
+web-gpt-3.5-turbo-1106,
+web-gpt-3.5-turbo-16k,
+web-gpt-4,
+web-gpt-4-1106-preview,
+web-gpt-4-0125-preview,
+web-gpt-4-turbo-preview,
+web-gpt-4-vision-preview,
+web-gpt-4-v,
+web-gpt-4-dalle,
+web-gpt-4-all,
+web-gpt-4-32k,
+web-azure-gpt-3.5-turbo,
+web-azure-gpt-3.5-turbo-16k,
+web-azure-gpt-4,
+web-azure-gpt-4-32k,
+web-gpt-3.5-turbo-fast,
+web-gpt-3.5-turbo-16k-fast,
 
-##### **免费**
+# 画图 ----------,
+dalle,
+dall-e-2,
+dall-e-3,
+midjourney,
+midjourney-fast,
+midjourney-turbo,
+stable-diffusion,
 
-如果使用的 API Key 对应账号没有 `Nio Point` 余额, 只能使用下列的[免费模型](#关于模型):
+# Claude ----------,
+claude-1-100k,
+claude-1,
+claude-1.3,
+claude-2,
+claude-2.1,
 
-聊天:
+# 讯飞星火 ----------,
+spark-desk-v1.5,
+spark-desk-v2,
+spark-desk-v3,
 
-- `gpt-3.5-turbo`
-- `gpt-3.5-turbo-16k`
+# ChatGLM ----------,
+zhipu-chatglm-turbo,
 
-绘图:
+# 通义千问 ----------,
+qwen-plus,
+qwen-plus-net,
+qwen-turbo,
+qwen-turbo-net,
 
-- `dall-e-2`
+# Gemini/PaLM2 ----------,
+chat-bison-001,
+gemini-pro, 
+gemini-pro-vision,
 
-##### **付费**
+# NewBing ----------,
+bing-creative,
+bing-balanced,
+bing-precise,
 
-本站添加了部分付费模型:
+# MetaLLaMa ----------,
+llama-2-70b,
+code-llama-34b,
+llama-2-13b,
+llama-2-7b,
+code-llama-13b,
+code-llama-7b,
 
-聊天:
+# 腾讯混元 ----------,
+hunyuan,
 
-- `gpt-3.5-turbo-16k-fast`
-- `gpt-4-1106-preview`
-- `gpt-4-vision-preview` (`Vision`)
-- `gpt-4-dalle` (`dalle`)
-- `azure-gpt-4`
-- `azure-gpt-4-32k`
+# 360智脑 ----------,
+360-gpt-v9,
 
-绘图:
+# 百川AI ----------,
+baichuan-53b,
 
-- `dall-e-3`
-- `midjourney`
-- `midjourney-turbo`
-- `stable-diffusion`
+# 火山方舟(抖音豆包) ----------,
+skylark-lite-public,
+skylark-plus-public,
+skylark-pro-public,
+skylark-chat
+
+
+# ↓OPENAI_MODELS 变量
+
+# ChatGPT ----------,gpt-3.5-turbo,gpt-3.5-turbo-1106,gpt-3.5-turbo-16k,gpt-4,gpt-4-1106-preview,gpt-4-0125-preview,gpt-4-turbo-preview,gpt-4-vision-preview,gpt-4-v,gpt-4-dalle,gpt-4-all,gpt-4-32k,azure-gpt-3.5-turbo,azure-gpt-3.5-turbo-16k,azure-gpt-4,azure-gpt-4-32k,gpt-3.5-turbo-fast,gpt-3.5-turbo-16k-fast,# ChatGPT-联网 ----------,web-gpt-3.5-turbo,web-gpt-3.5-turbo-1106,web-gpt-3.5-turbo-16k,web-gpt-4,web-gpt-4-1106-preview,web-gpt-4-0125-preview,web-gpt-4-turbo-preview,web-gpt-4-vision-preview,web-gpt-4-v,web-gpt-4-dalle,web-gpt-4-all,web-gpt-4-32k,web-azure-gpt-3.5-turbo,web-azure-gpt-3.5-turbo-16k,web-azure-gpt-4,web-azure-gpt-4-32k,web-gpt-3.5-turbo-fast,web-gpt-3.5-turbo-16k-fast,# 画图 ----------,dalle,dall-e-2,dall-e-3,midjourney,midjourney-fast,midjourney-turbo,stable-diffusion,# Claude ----------,claude-1-100k,claude-1,claude-1.3,claude-2,claude-2.1,# 讯飞星火 ----------,spark-desk-v1.5,spark-desk-v2,spark-desk-v3,# ChatGLM ----------,zhipu-chatglm-turbo,# 通义千问 ----------,qwen-plus,qwen-plus-net,qwen-turbo,qwen-turbo-net,# Gemini/PaLM2 ----------,chat-bison-001,gemini-pro, gemini-pro-vision,# NewBing ----------,bing-creative,bing-balanced,bing-precise,# MetaLLaMa ----------,llama-2-70b,code-llama-34b,llama-2-13b,llama-2-7b,code-llama-13b,code-llama-7b,# 腾讯混元 ----------,hunyuan,# 360智脑 ----------,360-gpt-v9,# 百川AI ----------,baichuan-53b,# 火山方舟(抖音豆包) ----------,skylark-lite-public,skylark-plus-public,skylark-pro-public,skylark-chat
+```
 
 <!-- tabs:end -->
 
 ### 充值
 
-若使用付费模型, 请自行前往 ChatNio 的[官方网站][chatnio]充值使用
+请自行前往 ChatNio 的[官方网站][chatnio]充值使用
 
 常见问题解答: [Here][chatnio-qa]
 
-!> 使用付费模型前看清价格! 不要泄露自己的 API Key, 避免盗用! 如泄露请在 [ChatNio][chatnio] 获取 `API Key` 的页面重置!
-
-## Storage
-
-已添加模型列表留档:
-
-<!-- tabs:start -->
-
-##### **→**
-
-##### **List**
-
-```
-gpt-3.5-turbo,
-web-gpt-3.5-turbo,
-gpt-3.5-turbo-16k,
-web-gpt-3.5-turbo-16k,
-dall-e-2,
-↑Free ↓Paid,
-web-gpt-3.5-turbo-16k-fast,
-web-gpt-4-1106-preview,
-web-gpt-4-vision-preview,
-web-gpt-4-dalle,
-web-azure-gpt-4,
-web-azure-gpt-4-32k,
-dall-e-3,
-midjourney,
-midjourney-turbo,
-stable-diffusion
-
-gpt-3.5-turbo,web-gpt-3.5-turbo,gpt-3.5-turbo-16k,web-gpt-3.5-turbo-16k,dall-e-2,↑Free ↓Paid,web-gpt-3.5-turbo-16k-fast,web-gpt-4-1106-preview,web-gpt-4-vision-preview,web-gpt-4-dalle,web-azure-gpt-4,web-azure-gpt-4-32k,dall-e-3,midjourney,midjourney-turbo,stable-diffusion
-```
-
-<!-- tabs:end -->
-
-最近的apk打包参数:
-
-<!-- tabs:start -->
-
-##### **→**
-
-##### **List**
-
-```yaml
-名称: wLibreChat
-包名: top.wyf.web.wlibrechat
-版本名: WebRelease1.1
-数字版本号: 2
-网页: https://libre.wyf9.top
-特性: 支持打开外部应用, 硬件加速
-启用应用栏/网页标题/菜单项: False
-```
-
-<!-- tabs:end -->
+!> 不要泄露自己的 API Key, 避免盗用! 如泄露请在 [ChatNio][chatnio] 获取 `API Key` 的页面重置!
 
 [chatnio-models]: https://docs.chatnio.net/ai-mo-xing-ji-ji-fei
 [chatnio]: https://chatnio.net
