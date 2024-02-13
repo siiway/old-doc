@@ -2,9 +2,10 @@
   - [:cn:中文](/)
   - [:us:English](en-us/)
 
-- Pages
-  - [Home](/)
-  - [wyf9](wyf9/)
-  - [Homework](/homework/)
+- [wyf9](/wyf9/)
 
-- [Tools](/tool/)
+- [AI](/ai/)
+
+- Pages
+  - [Homework](/homework/)
+  - [Tools](/tool/)
