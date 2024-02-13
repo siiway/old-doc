@@ -1,11 +1,8 @@
-- Languages
-  - [:cn:中文](/)
-  - [:us:English](en-us/)
+- [Home](/)
 
 - [wyf9](/wyf9/)
 
-- [AI](/ai/)
-
 - Pages
+  - [AI](/ai/)
   - [Homework](/homework/)
   - [Tools](/tool/)
