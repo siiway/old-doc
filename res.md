@@ -4,8 +4,8 @@
 
 - [复制文本](#复制文本)
 - [复制文本-升级版](#复制文本-升级版)
-- [图片加速](#图片加速加载)
 - [版权信息](#版权信息)
+- [图片加速](#图片加速加载)
 
 ## 复制文本
 
@@ -189,7 +189,7 @@ Line3`, 'copy1', '复制成功!', 800)">点击复制多行</a></div>
 
 使用下面的脚本:
 
-```js
+```html
 <script src="https://ghsrc.wyf9.top/js/copyright.js"></script>
 ```
 
@@ -219,7 +219,7 @@ copyright("wyear");
 Copyright ©2024 wyf9. All Rights Reserved.
 ```
 
-> 本人的[个人主页](https://wyf9.top?id=about)(开源)末尾使用了此脚本，可参考
+> 本人的[个人主页](https://wyf9.top/#/?id=about)(开源)末尾使用了此脚本，可参考
 
 ## 图片加速加载
 
