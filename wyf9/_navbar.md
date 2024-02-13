@@ -4,8 +4,7 @@
 
 - [wyf9](/wyf9/)
 
-- [AI](/ai/)
-
 - Pages
+  - [AI](/ai/)
   - [Homework](/homework/)
   - [Tools](/tool/)
