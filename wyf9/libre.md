@@ -10,29 +10,7 @@
 
 点击 `注册`, 按照提示注册即可
 
-<!-- tabs:start -->
-
-##### **org**
-
-![img](https://ghproxy.org/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/libre/reg1.png)
-
-##### **net**
-
-![img](https://ghproxy.net/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/libre/reg1.png)
-
-##### **com**
-
-![img](https://mirror.ghproxy.com/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/libre/reg1.png)
-
-##### **Raw**
-
-![img](https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/libre/reg1.png)
-
-##### **Site**
-
-![img](https://doc.wyf9.top/_media/wyf9/libre/reg1.png)
-
-<!-- tabs:end -->
+![reg1](https://ghimg.wyf9.top/doc/libre/reg1.png)
 
 ## 登录
 
@@ -51,27 +29,15 @@
 
 <!-- tabs:start -->
 
-##### **ghsrc**
-
-https://ghsrc.wyf9.top/dl/wlibrechat/wLibreChat_WebReleaseLatest.apk
-
 ##### **raw**
 
-https://raw.githubusercontent.com/wyf01239/ghsrc/main/dl/wlibrechat/wLibreChat_WebReleaseLatest.apk
+https://ghsrc.wyf9.top/dl/wlibrechat/wLibreChat_WebReleaseLatest.apk
 
 ##### **org**
 
 https://ghproxy.org/https://raw.githubusercontent.com/wyf01239/ghsrc/main/dl/wlibrechat/wLibreChat_WebReleaseLatest.apk
 
 > 或使用短链: <https://t.wyf9.top/libreapkorg>
-
-##### **net**
-
-https://ghproxy.net/https://raw.githubusercontent.com/wyf01239/ghsrc/main/dl/wlibrechat/wLibreChat_WebReleaseLatest.apk
-
-##### **com**
-
-https://mirror.ghproxy.com/https://raw.githubusercontent.com/wyf01239/ghsrc/main/dl/wlibrechat/wLibreChat_WebReleaseLatest.apk
 
 <!-- tabs:end -->
 
@@ -116,36 +82,13 @@ net::ERR_CONNECTION_RESET
 
 ## 找回密码
 
-预计会在~~几个月~~几周内完善，期间请不要随意找回他人的账号，后果自负!
+预计会在*暑假前*完善，期间请不要随意找回他人的账号，后果自负!
 
 ## 使用
 
 登录后应该会看到以下界面:
 
-<!-- tabs:start -->
-
-##### **org**
-
-![img](https://ghproxy.org/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/libre/logged.png)
-
-##### **net**
-
-![img](https://ghproxy.net/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/libre/logged.png)
-
-##### **com**
-
-![img](https://mirror.ghproxy.com/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/libre/logged.png)
-
-##### **Raw**
-
-![img](https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/libre/logged.png)
-
-##### **Site**
-
-![img](https://doc.wyf9.top/_media/wyf9/libre/logged.png)
-
-<!-- tabs:end -->
-
+![logged](https://ghimg.wyf9.top/doc/libre/logged.png)
 
 <!-- tabs:start -->
 
@@ -163,55 +106,11 @@ net::ERR_CONNECTION_RESET
 
 !> 除 `OpenAI` 以外的提供商未测试可用性
 
-<!-- tabs:start -->
-
-##### **org**
-
-![img](https://ghproxy.org/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/libre/setmodel1.png)
-
-##### **net**
-
-![img](https://ghproxy.net/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/libre/setmodel1.png)
-
-##### **com**
-
-![img](https://mirror.ghproxy.com/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/libre/setmodel1.png)
-
-##### **Raw**
-
-![img](https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/libre/setmodel1.png)
-
-##### **Site**
-
-![img](https://doc.wyf9.top/_media/wyf9/libre/setmodel1.png)
-
-<!-- tabs:end -->
+![img](https://ghimg.wyf9.top/doc/libre/setmodel1.png)
 
 打开后会出现如图界面, 点击红框区域可输入 API Key:
 
-<!-- tabs:start -->
-
-##### **org**
-
-![img](https://ghproxy.org/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/libre/setmodel2.png)
-
-##### **net**
-
-![img](https://ghproxy.net/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/libre/setmodel2.png)
-
-##### **com**
-
-![img](https://mirror.ghproxy.com/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/libre/setmodel2.png)
-
-##### **Raw**
-
-![img](https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/libre/setmodel2.png)
-
-##### **Site**
-
-![img](https://doc.wyf9.top/_media/wyf9/libre/setmodel2.png)
-
-<!-- tabs:end -->
+![img](https://ghimg.wyf9.top/doc/libre/setmodel2.png)
 
 `Expires in ...` 可设置密钥存储的过期时间
 
@@ -253,81 +152,15 @@ net::ERR_CONNECTION_RESET
 2. 注册或登录一个账号
 3. 点击左下角的三点或右上角的头像, 打开菜单
 
-<!-- tabs:start -->
-
-##### **org**
-
-![img](https://ghproxy.org/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/libre/1.png)
-
-##### **net**
-
-![img](https://ghproxy.net/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/libre/1.png)
-
-##### **com**
-
-![img](https://mirror.ghproxy.com/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/libre/1.png)
-
-##### **Raw**
-
-![img](https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/libre/1.png)
-
-##### **Site**
-
-![img](https://doc.wyf9.top/_media/wyf9/libre/1.png)
-
-<!-- tabs:end -->
+![img](https://ghimg.wyf9.top/doc/libre/1.png)
 
 4. 点击 `API 设置`
 
-<!-- tabs:start -->
-
-##### **org**
-
-![img](https://ghproxy.org/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/libre/2.png)
-
-##### **net**
-
-![img](https://ghproxy.net/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/libre/2.png)
-
-##### **com**
-
-![img](https://mirror.ghproxy.com/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/libre/2.png)
-
-##### **Raw**
-
-![img](https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/libre/2.png)
-
-##### **Site**
-
-![img](https://doc.wyf9.top/_media/wyf9/libre/2.png)
-
-<!-- tabs:end -->
+![img](https://ghimg.wyf9.top/doc/libre/2.png)
 
 5. 复制 API key
 
-<!-- tabs:start -->
-
-##### **org**
-
-![img](https://ghproxy.org/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/libre/3.png)
-
-##### **net**
-
-![img](https://ghproxy.net/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/libre/3.png)
-
-##### **com**
-
-![img](https://mirror.ghproxy.com/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/libre/3.png)
-
-##### **Raw**
-
-![img](https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/libre/3.png)
-
-##### **Site**
-
-![img](https://doc.wyf9.top/_media/wyf9/libre/3.png)
-
-<!-- tabs:end -->
+![img](https://ghimg.wyf9.top/doc/libre/3.png)
 
 6. 按照[上面](#使用)的说明粘贴, 即可开始使用
 

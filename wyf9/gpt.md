@@ -24,80 +24,15 @@
 2. 注册或登录一个账号
 3. 点击左下角的三点或右上角的头像, 打开菜单
 
-<!-- tabs:start -->
 
-##### **org**
-
-![img](https://ghproxy.org/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/gpt/1.png)
-
-##### **net**
-
-![img](https://ghproxy.net/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/gpt/1.png)
-
-##### **com**
-
-![img](https://mirror.ghproxy.com/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/gpt/1.png)
-
-##### **Raw**
-
-![img](https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/gpt/1.png)
-
-##### **Site**
-
-![img](https://doc.wyf9.top/_media/wyf9/gpt/1.png)
-
-<!-- tabs:end -->
+![img](https://ghimg.wyf9.top/doc/gpt/1.png)
 
 4. 点击 `API 设置`
 
-<!-- tabs:start -->
-
-##### **org**
-
-![img](https://ghproxy.org/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/gpt/2.png)
-
-##### **net**
-
-![img](https://ghproxy.net/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/gpt/2.png)
-
-##### **com**
-
-![img](https://mirror.ghproxy.com/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/gpt/2.png)
-
-##### **Raw**
-
-![img](https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/gpt/2.png)
-
-##### **Site**
-
-![img](https://doc.wyf9.top/_media/wyf9/gpt/2.png)
-
-<!-- tabs:end -->
+![img](https://ghimg.wyf9.top/doc/gpt/2.png)
 
 5. 复制 API key, 粘贴到站点的下方 API key 框中即可
 
-<!-- tabs:start -->
-
-##### **org**
-
-![img](https://ghproxy.org/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/gpt/3.png)
-
-##### **net**
-
-![img](https://ghproxy.net/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/gpt/3.png)
-
-##### **com**
-
-![img](https://mirror.ghproxy.com/https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/gpt/3.png)
-
-##### **Raw**
-
-![img](https://raw.githubusercontent.com/wyf01239/doc/main/_media/wyf9/gpt/3.png)
-
-##### **Site**
-
-![img](https://doc.wyf9.top/_media/wyf9/gpt/3.png)
-
-<!-- tabs:end -->
+![img](https://ghimg.wyf9.top/doc/gpt/3.png)
 
 <!-- tabs:end -->
