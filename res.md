@@ -4,6 +4,7 @@
 
 - [复制文本](#复制文本)
 - [复制文本-升级版](#复制文本-升级版)
+- [版权信息](#版权信息)
 - [图片加速](#图片加速加载)
 
 ## 复制文本
@@ -180,9 +181,53 @@ Line3`, 'copy1', '复制成功!', 800)">点击复制多行</a></div>
 
 <!-- tabs:end -->
 
+## 版权信息
+
+一个js脚本，用于动态加载版权信息中的年份
+
+### 加载
+
+使用下面的脚本:
+
+```html
+<script src="https://ghsrc.wyf9.top/js/copyright.js"></script>
+```
+
+> 也可自行下载使用
+
+### 使用
+
+创建一个div，里面写上需要格式化的内容，如:
+
+```html
+<div id=wyear>Copyright ©(year) wyf9. All Rights Reserved.</div>
+```
+
+需要替换的年份内容用 `(year)` 表示
+
+接着调用脚本，只需要传递div的id作为参数即可，示例:
+
+```html
+<script>
+copyright("wyear");
+</script>
+```
+
+效果:
+
+```md
+Copyright ©2024 wyf9. All Rights Reserved.
+```
+
+> 本人的[个人主页](https://wyf9.top/#/?id=about)(开源)末尾使用了此脚本，可参考
+
 ## 图片加速加载
 
 > [Back](#sources)
+
+!> 因太麻烦，目前已弃用此方法，仅供留档参考
+
+现在的链接: https://ghimg.wyf9.top/doc/
 
 ?> `GitHub Raw` 文件路径格式: https://raw.githubusercontent.com/(user)/(repo)/(branch)/(path of file)
 

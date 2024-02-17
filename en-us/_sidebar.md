@@ -1,2 +1,0 @@
-- SideBar - en-us
-  - [Home](/en-us/)
