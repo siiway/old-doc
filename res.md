@@ -215,9 +215,11 @@ copyright("wyear");
 
 效果:
 
-```md
-Copyright ©2024 wyf9. All Rights Reserved.
-```
+<div id=wyear>Copyright ©(year) wyf9. All Rights Reserved.</div>
+
+<script>
+copyright("wyear");
+</script>
 
 > 本人的[个人主页](https://wyf9.top/#/?id=about)(开源)末尾使用了此脚本，可参考
 
