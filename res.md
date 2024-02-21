@@ -1,10 +1,13 @@
 # Sources
 
+一些在搭建本站时使用到的资源/脚本等
+
 ## Menu
 
 - [复制文本](#复制文本)
 - [复制文本-升级版](#复制文本-升级版)
 - [版权信息](#版权信息)
+- [页脚](#页脚)
 - [图片加速](#图片加速加载)
 
 ## 复制文本
@@ -183,6 +186,8 @@ Line3`, 'copy1', '复制成功!', 800)">点击复制多行</a></div>
 
 ## 版权信息
 
+> [Back](#sources)
+
 一个js脚本，用于动态加载版权信息中的年份
 
 ### 加载
@@ -222,6 +227,66 @@ copyright("wyear");
 </script>
 
 > 本人的[个人主页](https://wyf9.top/#/?id=about)(开源)末尾使用了此脚本，可参考
+
+## 页脚
+
+> [Back](#sources)
+
+在页面下方插入 `在 GitHub 上编辑` 和版权信息
+
+> 从官方文档中的示例修改
+
+直接在 `window.$docsify` 的 `plugins` 中插入即可
+
+在下面复制↓
+
+```js
+function(hook, vm) {
+    hook.beforeEach(function(html) {
+        var url = 'https://github.com/wyf01239/doc/blob/main/' + vm.route.file;
+        var editHtml = '[📝 在 GitHub 上编辑](' + url + ')\n\n';
+        const ctext = "Copyright ©(year) wyf9. All Rights Reserved.";
+        const currentYear = new Date().getFullYear();
+        const rtxt = ctext.replace('(year)', currentYear);
+        return (
+            html +
+            '\n\n----\n\n' +
+            editHtml +
+            rtxt
+        );
+    });
+}
+```
+
+> 使用示例:
+
+```html
+    <script>
+        window.$docsify = {
+            //其他配置
+            plugins: [
+                function(hook, vm) {
+                    hook.beforeEach(function(html) {
+                        var url = 'https://github.com/wyf01239/doc/blob/main/' + vm.route.file;
+                        var editHtml = '[📝 在 GitHub 上编辑](' + url + ')\n\n';
+                        
+                        const ctext = "Copyright ©(year) wyf9. All Rights Reserved.";
+                        const currentYear = new Date().getFullYear();
+                        const rtxt = ctext.replace('(year)', currentYear);
+                        
+                        return (
+                            html +
+                            '\n\n----\n\n' +
+                            editHtml +
+                            rtxt
+                        );
+                    });
+                }
+            ]
+        };
+    </script>
+    <!-- 其他内容 -->
+```
 
 ## 图片加速加载
 
