@@ -40,7 +40,8 @@
                         var url = 'https://github.com/wyf01239/doc/blob/main/' + vm.route.file;
                         var editHtml = '[📝 在 GitHub 上编辑](' + url + ')\n\n';
                         
-                        const ctext = "Copyright ©(year) wyf9. All Rights Reserved.";
+                        const ctext = "Copyright ©(year) [wyf9](https://wyf9.top). All Rights Reserved.";
+                        const powered = "Powered by [Docsify](https://docsify.js.org)"
                         const currentYear = new Date().getFullYear();
                         const rtxt = ctext.replace('(year)', currentYear);
                         
@@ -48,7 +49,9 @@
                             html +
                             '\n\n----\n\n' +
                             editHtml +
-                            rtxt
+                            rtxt +
+                            '\n\n' +
+                            powered
                         );
                     });
                 }
