@@ -4,5 +4,4 @@
 
 - Pages
   - [AI](/ai/)
-  - [Homework](/homework/)
   - [Tools](/tool/)

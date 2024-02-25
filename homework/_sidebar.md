@@ -1,4 +1,0 @@
-- SideBar - /homework
-  - [Home](/homework/)
-  - [ArtHomeworks](/homework/art.md)
-  - [Art20240102](/homework/art20240102.md)
