@@ -1,5 +1,7 @@
 # wyf9s ChatGPT-Next-Web
 
+!> **本页已停止维护**, 可尝试是否能正常使用 (未删站)
+
 !> ChatNio 已停止免费服务
 
 > 本页短链: <https://t.wyf9.top/wgptdoc>
@@ -14,11 +16,11 @@
 
 #### **Password**
 
-填入正确的密码即可直接使用，可[联系](mailto:wyf9@wyf9.top)获取.
+~~填入正确的密码即可直接使用，可[联系](mailto:wyf9@wyf9.top)获取.~~
 
-#### **Get api key**
+#### **Get API Key**
 
-可以在设置中使用自己的 API 和 API key, 也可以使用 ChatNio 的免费模型:
+可以在设置中使用自己的 API 和 API key~~, 也可以使用 ChatNio 的免费模型~~:
 
 1. 打开 [ChatNio](https://chatnio.net) 官网
 2. 注册或登录一个账号
