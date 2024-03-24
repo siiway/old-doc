@@ -3,7 +3,7 @@
 Only a test file.
 
 <span id="Beijing_z43d"></span>
-<script src="https://cfpx.wyf9.top/https://widget.time.is/zh.js"></script>
+<script src="//cfpx.wyf9.top/https://widget.time.is/zh.js"></script>
 <script>
 time_is_widget.init({Beijing_z43d:{template:"DATE TIME", date_format:"year-monthnum-daynum"}});
 </script>
