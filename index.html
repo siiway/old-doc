@@ -10,6 +10,15 @@
 <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
 </head>
 
+<script>
+// 日期字符串转换为日期对象的函数
+function parseDate(input) {
+    var parts = input.split('-');
+    // 注意：月份需要减去 1，因为 JavaScript 中月份是从 0 开始计数的
+    return new Date(parts[0], parts[1] - 1, parts[2]);
+}
+</script>
+
 <body>
     <div id="app">Loading</div>
     <script>
@@ -41,17 +50,28 @@
                         var editHtml = '[📝 在 GitHub 上编辑](' + url + ')\n\n';
                         
                         const ctext = "Copyright ©(year) [wyf9](https://wyf9.top). All Rights Reserved.";
-                        const powered = "Powered by [Docsify](https://docsify.js.org)"
+                        const powered = "Powered by [Docsify](https://docsify.js.org) / [Cloudflare Pages](https://pages.cloudflare.com)"
                         const currentYear = new Date().getFullYear();
                         const rtxt = ctext.replace('(year)', currentYear);
+                        
+                        // 创建某日和今天的日期对象
+                        const startDate = parseDate('2024-02-13'); // 替换为您要计算的某日
+                        const today = new Date();
+                        // 计算时间差
+                        const timeDiff = Math.abs(today.getTime() - startDate.getTime());
+                        const diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24)); // 将毫秒转换为天数并向上取整
+                        const dateDiff = `本站已运行 ${diffDays} 天`
                         
                         return (
                             html +
                             '\n\n----\n\n' +
                             editHtml +
+                            '\n\n' +
                             rtxt +
                             '\n\n' +
-                            powered
+                            powered +
+                            '\n\n' +
+                            dateDiff
                         );
                     });
                 }
@@ -73,29 +93,31 @@
     <link rel="stylesheet" href="https://ghsrc.wyf9.top/docsify/css/docsify-darklight-theme-style.css" title="docsify-darklight-theme" type="text/css" />
     <script src="https://ghsrc.wyf9.top/docsify/lib/docsify-darklight-theme.js" type="text/javascript"></script>
 
-    <script src="https://ghsrc.wyf9.top/js/copy.js"></script>
-    <script src="https://ghsrc.wyf9.top/js/copyn.js"></script>
-    <script src="https://ghsrc.wyf9.top/js/copym.js"></script>
+    <script src="https://ghsrc.wyf9.top/js/copy.js" defer></script>
+    <script src="https://ghsrc.wyf9.top/js/copyn.js" defer></script>
+    <script src="https://ghsrc.wyf9.top/js/copym.js" defer></script>
     <script src="https://ghsrc.wyf9.top/js/copyright.js"></script>
 
-    <!-- Prism Code Hightlight -->
-    <script src="https://ghsrc.wyf9.top/docsify/prism/prism-css.min.js"></script>
-    <script src="https://ghsrc.wyf9.top/docsify/prism/prism-bash.min.js"></script>
-    <script src="https://ghsrc.wyf9.top/docsify/prism/prism-batch.min.js"></script>
-    <script src="https://ghsrc.wyf9.top/docsify/prism/prism-csv.min.js"></script>
-    <script src="https://ghsrc.wyf9.top/docsify/prism/prism-docker.min.js"></script>
-    <script src="https://ghsrc.wyf9.top/docsify/prism/prism-git.min.js"></script>
-    <script src="https://ghsrc.wyf9.top/docsify/prism/prism-http.min.js"></script>
-    <script src="https://ghsrc.wyf9.top/docsify/prism/prism-icon.min.js"></script>
-    <script src="https://ghsrc.wyf9.top/docsify/prism/prism-ignore.min.js"></script>
-    <script src="https://ghsrc.wyf9.top/docsify/prism/prism-ini.min.js"></script>
-    <script src="https://ghsrc.wyf9.top/docsify/prism/prism-json.min.js"></script>
-    <script src="https://ghsrc.wyf9.top/docsify/prism/prism-json5.min.js"></script>
-    <script src="https://ghsrc.wyf9.top/docsify/prism/prism-powershell.min.js"></script>
-    <script src="https://ghsrc.wyf9.top/docsify/prism/prism-python.min.js"></script>
-    <script src="https://ghsrc.wyf9.top/docsify/prism/prism-systemd.min.js"></script>
-    <script src="https://ghsrc.wyf9.top/docsify/prism/prism-visual-basic.min.js"></script>
-    <script src="https://ghsrc.wyf9.top/docsify/prism/prism-yaml.min.js"></script>
+    <!-- Prism Code Highlight -->
+    <script src="https://ghsrc.wyf9.top/docsify/prism/prism-css.min.js" defer></script>
+    <script src="https://ghsrc.wyf9.top/docsify/prism/prism-bash.min.js" defer></script>
+    <script src="https://ghsrc.wyf9.top/docsify/prism/prism-batch.min.js" defer></script>
+    <script src="https://ghsrc.wyf9.top/docsify/prism/prism-csv.min.js" defer></script>
+    <script src="https://ghsrc.wyf9.top/docsify/prism/prism-docker.min.js" defer></script>
+    <script src="https://ghsrc.wyf9.top/docsify/prism/prism-git.min.js" defer></script>
+    <script src="https://ghsrc.wyf9.top/docsify/prism/prism-http.min.js" defer></script>
+    <script src="https://ghsrc.wyf9.top/docsify/prism/prism-icon.min.js" defer></script>
+    <script src="https://ghsrc.wyf9.top/docsify/prism/prism-ignore.min.js" defer></script>
+    <script src="https://ghsrc.wyf9.top/docsify/prism/prism-ini.min.js" defer></script>
+    <script src="https://ghsrc.wyf9.top/docsify/prism/prism-json.min.js" defer></script>
+    <script src="https://ghsrc.wyf9.top/docsify/prism/prism-json5.min.js" defer></script>
+    <script src="https://ghsrc.wyf9.top/docsify/prism/prism-powershell.min.js" defer></script>
+    <script src="https://ghsrc.wyf9.top/docsify/prism/prism-python.min.js" defer></script>
+    <script src="https://ghsrc.wyf9.top/docsify/prism/prism-systemd.min.js" defer></script>
+    <script src="https://ghsrc.wyf9.top/docsify/prism/prism-visual-basic.min.js" defer></script>
+    <script src="https://ghsrc.wyf9.top/docsify/prism/prism-yaml.min.js" defer></script>
+    <script src="https://ghsrc.wyf9.top/docsify/prism/prism-c.min.js" defer></script>
+    <script src="https://ghsrc.wyf9.top/docsify/prism/prism-cpp.min.js" defer></script>
 
 
     <style>
