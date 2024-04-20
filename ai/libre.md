@@ -6,6 +6,8 @@
 
 服务监测: ![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/zl5f.svg)
 
+!> 因国内访问过慢已放弃维护（仍可使用）
+
 ## 注册
 
 点击 `注册`, 按照提示注册即可
@@ -82,11 +84,11 @@ net::ERR_CONNECTION_RESET
 
 ## 找回密码
 
-预计会在*暑假前*完善，期间请不要随意找回他人的账号，后果自负!
+?
 
 ## 使用
 
-登录后应该会看到以下界面:
+登录后应该会看到如下界面:
 
 ![logged](https://ghimg.wyf9.top/doc/libre/logged.png)
 
@@ -96,7 +98,7 @@ net::ERR_CONNECTION_RESET
 
 ##### **1/2**
 
-~~如果你猜不出这两个是用来干什么的，就应该去检查下智力了？~~
+............
 
 ##### **3-设置 API Key 看**
 
@@ -113,10 +115,6 @@ net::ERR_CONNECTION_RESET
 ![img](https://ghimg.wyf9.top/doc/libre/setmodel2.png)
 
 `Expires in ...` 可设置密钥存储的过期时间
-
-> 翻译: 在...后过期
-
-> 下面是中英对照:
 
 | English    | 中文 |
 |------------|------|
@@ -293,7 +291,7 @@ skylark-chat
 
 ### 充值
 
-请自行前往 ChatNio 的[官方网站][chatnio]充值使用
+请自行前往 ChatNio 的[官方网站][chatnio]充值使用，本站不进行计费
 
 常见问题解答: [Here][chatnio-qa]
 
