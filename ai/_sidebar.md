@@ -1,5 +1,5 @@
 - SideBar - /ai
-  - [Home](/ai/)
-  - [LibreChat](/ai/libre.md)
-  - [ChatGPT Next Web](/ai/gpt.md)
-  - [BingAI](/ai/bing.md)
+  - [Home](README.md)
+  - [LibreChat](libre.md)
+  - [ChatGPT Next Web](gpt.md)
+  - [BingAI](bing.md)

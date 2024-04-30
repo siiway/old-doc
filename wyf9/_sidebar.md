@@ -1,4 +1,4 @@
 - SideBar - /wyf9
-  - [Home](/wyf9/)
-  - [wAutoSend-Autoxjs](/wyf9/autosendjs.md)
-  - [JSPvz](/wyf9/jspvz.md)
+  - [Home](README.md)
+  - [wAutoSend-Autoxjs](autosendjs.md)
+  - [JSPvz](jspvz.md)

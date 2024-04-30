@@ -1,3 +1,3 @@
 - SideBar - /tool - Tools
-  - [Home](/tool/)
-  - [AES](/tool/aes.md)
+  - [Home](README.md)
+  - [AES](aes.md)

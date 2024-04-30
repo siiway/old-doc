@@ -294,7 +294,7 @@ function(hook, vm) {
 
 !> 因太麻烦，目前已弃用此方法，仅供留档参考
 
-现在的链接: `https://ghimg.wyf9.top/doc/`...
+现在的链接: https://ghimg.wyf9.top/doc/
 
 ?> `GitHub Raw` 文件路径格式: https://raw.githubusercontent.com/(user)/(repo)/(branch)/(path of file)
 

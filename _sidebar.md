@@ -1,4 +1,4 @@
 - SideBar
-  - [Home](/)
-  - [Test](/test.md)
-  - [Sources](/res.md)
+  - [Home](README.md)
+  - [Test](test.md)
+  - [Sources](res.md)
