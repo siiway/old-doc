@@ -175,8 +175,8 @@ markdown:
 <div id="copy1"><a href="javascript:copyn('要复制的文本', 'copy1', '复制成功!', 800)">点击复制单行</a></div>
 
 ```html
-<div id="copy1"><a href="javascript:copym(`Line1
-Line2
+<div id="copy1"><a href="javascript:copym(`Line1\n
+Line2\n
 Line3`, 'copy1', '复制成功!', 800)">点击复制多行</a></div>
 ```
 
