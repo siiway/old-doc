@@ -1,0 +1,15 @@
+# Tailchat BBCode Syntax
+
+来自: [官方文档](https://tailchat.msgbyte.com/zh-Hans/docs/advanced-usage/richtext) / [GitHub](https://github.com/msgbyte/tailchat/blob/master/website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/advanced-usage/richtext.md)
+
+| 关键字        | 描述             | 用法示例                                                                                                                   | 预览                                                                                   |
+| ------------- | ---------------- | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| b             | 文本加粗         | `[b]foo[/b]`                                                                                                               | <b>foo</b>                                                                             |
+| i             | 文本倾斜         | `[i]foo[/i]`                                                                                                               | <i>foo</i>                                                                             |
+| u             | 文本下划线       | `[u]foo[/u]`                                                                                                               | <ins>foo</ins>                                                                         |
+| s             | 文本删除线       | `[s]foo[/s]`                                                                                                               | <del>foo</del>                                                                         |
+| url           | 超链接           | `[url]https://tailchat.msgbyte.com[/url]` / `[url=https://tailchat.msgbyte.com]官网[/url]` | <a>https://tailchat.msgbyte.com</a> / <a href="https://tailchat.msgbyte.com">官网</a>  |
+| img           | 图片             | `[img]https://tailchat.msgbyte.com/img/logo.svg[/img]`                                                                     | <img src="https://tailchat.msgbyte.com/img/logo.svg" /> |
+| at            | 提及             | `[at=<hereisuserid>]moonrailgun[/at]`                                                                                      | -                                                                                      |
+| emoji         | 表情             | `[emoji]smile[/emoji]`                                                                                                     | -                                                                                      |
+| markdown / md | markdown语法支持 | `[markdown]## Heading[/markdown]` / `[md]## Heading[/md]`                                                                  | -                                                                                      |

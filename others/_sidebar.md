@@ -1,0 +1,3 @@
+- SideBar - /others
+  - [Home](README.md)
+  - [Tailchat BBCode Syntax](tailchat-bbcode.md)
