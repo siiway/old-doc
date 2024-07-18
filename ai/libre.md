@@ -4,9 +4,27 @@
 
 ?> 站点: <https://libre.wyf9.top>
 
-服务监测: ![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/zl5f.svg)
+~~服务监测: ![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/zl5f.svg)~~
 
-!> 因国内访问过慢已放弃维护（仍可使用）
+## Problems
+
+!> 因国内访问过慢已放弃维护
+
+!> 仍可使用，但因为使用的是免费服务，可能会出现下面的提示:
+
+```text
+This service has been suspended.
+```
+
+Render Dashboard 的提示:
+
+![1-suspended](libre-img/1-suspended.png)
+
+此问题目前无法解决
+
+## 推荐
+
+推荐一个 AI 聚合站: <https://chatnio.net>
 
 ## 注册
 
