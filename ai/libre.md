@@ -22,6 +22,18 @@ Render Dashboard 的提示:
 
 此问题目前无法解决
 
+<details>
+<summary>点击展开</summary>
+
+补充:
+
+![2-metrics](libre-img/2-metrics.png)
+
+↑ 《流 量 过 大》 《9 M B》
+
+</details>
+
+
 ## 推荐
 
 推荐一个 AI 聚合站: <https://chatnio.net>
